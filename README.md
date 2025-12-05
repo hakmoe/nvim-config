@@ -1,5 +1,6 @@
 # Setting up
-Locate these files in ~/.config/nvim/
+Locate these files in ~/.config/nvim/ on ubuntu
+and in $env:LOCALAPPDATA\nvim on windows
 
 Requirements:
 
@@ -15,6 +16,10 @@ Install scoop first, if you don't already have it
 ```shell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
+```
+then install neovim with
+```
+scoop install neovim
 ```
 
 Needs npm
